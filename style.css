@@ -1,0 +1,23 @@
+    body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden; /* Prevent scrollbars */
+    }
+    canvas {
+        display: inline-block;
+        margin: auto;
+        border: 1px solid black;
+        cursor: crosshair;
+		width: 800;
+		height: 600px;
+    }
+    canvas:active {
+        cursor: grabbing;
+    }
+	
+	#descriptionField {
+	display: inline-block;
+	resize: none;
+	width: 200px;
+	height: 600px;
+	vertical-align: top; }
